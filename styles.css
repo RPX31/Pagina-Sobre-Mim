@@ -37,7 +37,7 @@ main{
     height:92.6vh;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(15deg, rgba(210, 15, 151, 0.9), rgb(11, 191, 236)), url('/img/backgraund2.png');
+    background-image: linear-gradient(15deg, rgba(210, 15, 151, 0.9), rgb(11, 191, 236)), url('img/backgraund2.png');
 }
 /* final das configurações do projeto */
 /* menu de navegação inicio */
