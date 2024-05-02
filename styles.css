@@ -119,7 +119,7 @@ main{
     border: solid 2px #f700fd;
     padding: 5px;
     border-radius: 15px;
-    font-size: 17px;
+    font-size: 20px;
     width: 160px;
     margin-top: -7px;
     transition: 0.7s;
@@ -168,7 +168,7 @@ main{
     background: transparent;
     font-size: 120px;
     cursor: pointer;
-    margin-left: 50px;
+    margin-left: 105px;
     margin-right: 90px;
     transition: 432.5ms; 
     
