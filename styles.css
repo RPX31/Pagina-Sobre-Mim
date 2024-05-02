@@ -8,9 +8,6 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Poppins' , sans-serif
-
-    
-
 }
 header{
     display:flex;
@@ -31,36 +28,34 @@ footer a {
 main{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .background{
     width: 100%;
-    height:92.6vh;
+    min-height:100vh;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(15deg, rgba(210, 15, 151, 0.9), rgb(11, 191, 236)), url('backgraund2.png');
+    background-image: linear-gradient(15deg, rgba(210, 15, 151, 0.9), rgb(11, 191, 236)), url('/img/backgraund2.png');
 }
 /* final das configurações do projeto */
 /* menu de navegação inicio */
+
 .menuDeNavegacao ul{
-    display: flex;
-    justify-content: space-around;
-    gap: 3rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    gap: 3rem;
     font-weight: 300;
     cursor:pointer;
-    align-items: center;
 }
 .menuDeNavegacao ul li a{
-    justify-content: space-between;
     color:#fff;
     font-size:20px;
     transition: 1.2s;
-
 }
 .menuDeNavegacao ul li :hover{
     color: #f700fd;
 }
 .logo i{
-    
     height: 40px;
     width: 40px;
     background: transparent;
@@ -87,18 +82,15 @@ main{
 }
 .btn:last-child:hover{
     color: #fff;
-    background-color: #f700fd;
-    
-    
-    
+    background-color: #f700fd;  
 }
 /* meu de navegação final */
 
 /* inicio do main index */
 .principal{
-    padding: 150px 0 0 130px;
-    text-align:justify;
-    width: 40%; 
+    margin-top: 150px;
+    max-width: 40%;
+    display: inline-table;
     font-size: 17px;
 } 
 .principal p {
@@ -112,19 +104,21 @@ main{
 .textoh1 {
     font-size: 25px;
 }
-
 .imagemPerfil{
     width: 307.5px;
-    height: auto;
 }
 /* final do main index */
 /* inicio do main contato */
 .redesSociais {
     margin-top: 13%;
     display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
 }
 .redesSociais i{
-    width: 45px;
+    gap: 1rem;
     background: transparent;
     font-size: 120px;
     cursor: pointer;
