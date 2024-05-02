@@ -114,6 +114,9 @@ main{
     font-size: 60px;
 
 }
+.logo i:hover{
+    color: rgb(52, 100, 244)
+}
 .btn:last-child{
     color: #fff;
     border: solid 2px #f700fd;
