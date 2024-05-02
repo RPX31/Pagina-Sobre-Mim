@@ -38,7 +38,7 @@ main{
     min-height:100vh;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(15deg, rgba(210, 15, 151, 0.9), rgb(11, 191, 236)), url('img/backgraund2.png');
+    background-image: linear-gradient(15deg, rgba(210, 15, 151, 0.9), rgb(11, 191, 236)), url('backgraund2.png');
 }
 /* final das configurações do projeto */
 /* menu de navegação inicio */
@@ -50,16 +50,38 @@ main{
     gap: 1.75rem;
     font-weight: 700;
     cursor:pointer;
+     
 }
 .menuDeNavegacao ul li a{
     color:#fff;
     font-size:20px;
     transition: 1.2s;
+    text-decoration: none;
+    position: relative;
 
 }
 .menuDeNavegacao ul li :hover{
     color: #f700fd;
+    list-style: none;
+    display: inline;
+
 }
+.menuDeNavegacao  ul li a::after {
+        content: '';
+        display: block;
+        height: 2px;
+        background-color: #f700fd; 
+        position: absolute;
+        
+      }
+      
+.menuDeNavegacao li a:hover::after {
+        width: 100%; 
+      }
+
+.menuDeNavegacao .btn::after {
+        content: none;
+      }
 .logo i{
 
     height: 40px;
@@ -74,7 +96,7 @@ main{
     font-size: 60px;
 
 }
-.btn{
+.btn:last-child{
     color: #fff;
     border: solid 2px #f700fd;
     padding: 5px;
@@ -123,13 +145,13 @@ main{
     
 }
 .redesSociais i{
-    width:120px;
+    width: 120px;
     background: transparent;
     font-size: 120px;
     cursor: pointer;
     margin-left: 50px;
     margin-right: 90px;
-    transition: 432.5ms 
+    transition: 432.5ms; 
     
 }
 .redesSociais a :hover{
